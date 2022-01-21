@@ -1,0 +1,383 @@
+*{
+    margin: 0;padding: 0;
+}
+
+.header{
+    height: 65px;
+    width: 100%;
+    background: #fbfbfb; 
+}
+.header-container{
+    height: 65px;
+    width: 80%;
+    /* background: red; */
+    display: inline-block;
+    margin-left: 10%;
+}
+.logo{
+    height: 65px;
+    width: 20%;
+    /* background: yellow; */
+    font-size: 36px;
+    font-family: 'Segoe UI';
+    font-weight: 200;
+    text-align: center;
+    line-height: 62px;
+    display: inline-block;
+    vertical-align: top;
+    color: #000;
+    cursor: pointer;
+}
+/* span{
+    font-weight: 600;
+    color: #030d13f7;
+} */
+nav{
+    width: 40%;
+    height: 62px;
+    /* background-color: purple; */
+    display: inline-block;
+    font-size: 0px;
+    margin-left: 39%;
+    vertical-align: top;
+    color: #fff;
+}
+.navigation{
+    /* width: 100%; */
+    /* height: 62px; */
+    list-style-type: none;
+    font-size: 0px;
+}
+.nav-link{
+    color: #000;
+    cursor: pointer;
+    display: inline-block;
+    /* background-color: green; */
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 62px;
+    line-height: 62px;
+    margin-left: 10px;
+    text-align: center;
+    /* width: 20%; */
+}
+.nav-link:hover{
+    color: #424242;
+}
+
+
+/* BANNER STYLING */
+
+.banner{
+    height: 500px;
+    width: 100%;
+    /* background: grey; */
+    overflow: hidden;
+    background-image: url("./images/banner7.jpg");
+    background-size: cover;
+    background-position-y: -100px;
+}
+.banner-overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .2);
+}
+
+/* CUISINES */
+
+.cuisines{
+ width: 100%;
+ padding-top: 50px;
+ padding-bottom: 50px;
+ /* background-color: #f1f1f1; */
+}
+
+.section-title{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    font-weight: 200;
+    text-align: center;
+}
+
+.cuisine-container{
+    width: 80%;
+    min-height: 400px; 
+    /* background-color: red; */
+    display: inline-block;
+    margin-left: 10%;
+    margin-top: 30px;
+}
+
+.cuisine{
+    width: 47%;
+    height: 500px;
+    background-color: #fff;
+    display: inline-block;
+    margin-bottom: 18px;
+    margin-left: 1.5%;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 2px black;
+}
+
+.cuisine-img{
+    height: 250px;
+    width: 100%;
+    /* background-color: green; */
+    overflow: hidden;
+}
+
+.cuisine-photo{
+    width: 100%;
+    /* height: 100%; */
+}
+
+.padd{
+    padding: 15px;
+}
+
+.cuisine-title{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.cuisine-desc{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 10px;
+
+}
+
+
+/* TABLE BOOKING */
+
+.table-booking{
+    width: 100%;
+    /* height: 500px; */
+    /* padding-top: 100px;
+    padding-bottom: 100px; */
+    background-color: red;
+    background-image: url("./images/table1.jpg");
+    background-size: cover;
+    /* background-size: 200px 300px; */
+    background-repeat: no-repeat;
+}
+
+.overlay{
+    width: 100%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    /* height: 300px; */
+    background-color: rgba(0, 0, 0, .6);
+}
+
+.booking{
+    width: 50%;
+    /* background-color: #fff; */
+    /* height: 180px; */
+    display: inline-block;
+    margin-left: 25%;
+    /* margin-top: 100px; */
+    text-align: center;
+
+}
+.email{
+    width: 100%;
+    height: 45px;
+    outline: none;
+    border: 2px solid white;
+    background-color: transparent;
+    border-radius: 10px;
+    text-indent: 20px;
+    color: #fff;
+    font-size: 16px;
+}
+.btn{
+    width: 150px;
+    height: 45px;
+    margin-top: 45px;
+    border-radius: 10px;
+    font-size: 18px;
+    background-color: #ea6a10;
+    color: #f1f1f1;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #e05b32;
+    color: #fff;
+}
+.btn:active{
+    background-color: #e24c1e;
+}
+
+
+/* DISHES */
+
+.dishes{
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.dishes-container{
+    width: 80%;
+    min-height: 400px; 
+    /* background-color: red; */
+    display: inline-block;
+    margin-left: 10%;
+    margin-top: 30px;
+}
+.dish{
+width: 24%;
+min-height: 270px;
+/* background-color: yellow; */
+display: inline-block;
+margin-left: .7%;
+margin-bottom: 18px;
+box-shadow: 0 0 2px black;
+
+}
+.dish-img{
+    width: 100%;
+    height: 150px;
+    /* background-color: blue; */
+    overflow: hidden;
+}
+
+.dish-photo{
+    width: 100%;
+    background-position-y: -50px;
+}
+.dish-title{
+    font-family: 'Segoe UI';
+}
+.dish-desc{
+    font-family: 'Segoe UI';
+    padding-top: 10px;
+}
+.buy-btn{
+    text-decoration: none;
+    padding: 5px 10px;
+    background-color: #f4f2f2;
+    margin-top: 10px;
+    display: inline-block;
+    border-radius: 10px;
+    font-size: 14px;
+}
+.buy-btn:hover{
+    background-color: #eee7e7;
+}
+.buy-btn:active{
+    background-color: #e6dede;
+}
+
+/* ABOUT US */
+
+
+.about{
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #f5ebeb;
+}
+.about-container{
+    width: 80%;
+    /* background-color: #fff; */
+    display: inline-block;
+    margin-left: 10%;
+    min-height: 400px;
+    margin-top: 30px;
+}
+.about-img{
+    width: 47%;
+    min-height: 480px;
+    overflow: hidden;
+    /* background-color: yellow; */
+    background-image: url("./images/about2.jpeg");
+    background-size: cover;
+    background-position-y: -100px;
+    display: inline-block;
+}
+.about-overlay{
+    width: 100%;
+    background-color: rgba(0, 0, 0, .3);
+    height: 480px;
+}
+.about-text{
+    width: 47%;
+    min-height: 480px;
+    display: inline-block;
+    /* background-color: green; */
+    vertical-align: top;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    text-align: justify;
+    margin-left: 2%;
+}
+
+
+/* FOOTER */
+
+.footer{
+    width: 100%;
+    /* min-height: 350px; */
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #222;
+    color: white;
+}
+.footer-container{
+    width: 80%;
+    /* background-color: red; */
+    min-height: 300px;
+    display: inline-block;
+    margin-left: 10%;
+    margin-top: 30px;
+}
+.footer-sections{
+    width: 15%;
+    min-height: 250px;
+    /* background-color: yellow; */
+    display: inline-block;
+    vertical-align: top;
+    margin-left: .65%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.footer-list{
+    list-style-type: none;
+    padding: 20px;
+}
+.list-title{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.list-item{
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+.list-item:hover{
+    color: #eee7e7;
+}
+
+.social{
+    width: 100px;
+    padding: 30px;
+    text-align: center;
+}
+
+.social-img{
+    width: 25px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    /* display: inline-block; */
+}
+.map{
+    width: 35%;
+    border-radius: 10px;
+    overflow: hidden;
+}
