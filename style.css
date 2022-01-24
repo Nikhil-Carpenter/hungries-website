@@ -217,11 +217,11 @@ nav {
 }
 
 .dishes-container {
-  width: 80%;
+  width: 85%;
   min-height: 400px;
   /* background-color: red; */
   display: inline-block;
-  margin-left: 10%;
+  margin-left: 7.5%;
   margin-top: 30px;
 }
 .dish {
@@ -277,10 +277,10 @@ nav {
   background-color: #f5ebeb;
 }
 .about-container {
-  width: 80%;
+  width: 85%;
   /* background-color: #fff; */
   display: inline-block;
-  margin-left: 10%;
+  margin-left: 7.5%;
   min-height: 400px;
   margin-top: 30px;
 }
@@ -293,6 +293,7 @@ nav {
   background-size: cover;
   background-position-y: -100px;
   display: inline-block;
+  background-repeat: no-repeat;
 }
 .about-overlay {
   width: 100%;
@@ -322,20 +323,21 @@ nav {
   color: white;
 }
 .footer-container {
-  width: 80%;
-  /* background-color: red; */
+  width: 90%;
+  background-color: red;
   min-height: 300px;
   display: inline-block;
-  margin-left: 10%;
+  margin-left: 5%;
   margin-top: 30px;
+  font-size: 0px;
 }
 .footer-sections {
   width: 15%;
   min-height: 250px;
-  /* background-color: yellow; */
+  background-color: yellow;
   display: inline-block;
   vertical-align: top;
-  margin-left: 0.6%;
+  margin-left: 1%;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -351,6 +353,7 @@ nav {
 
 .list-item {
   margin-bottom: 5px;
+  font-size: 14px;
   cursor: pointer;
 }
 .list-item:hover {
