@@ -324,7 +324,7 @@ nav {
 }
 .footer-container {
   width: 90%;
-  background-color: red;
+  /* background-color: red; */
   min-height: 300px;
   display: inline-block;
   margin-left: 5%;
@@ -334,7 +334,7 @@ nav {
 .footer-sections {
   width: 15%;
   min-height: 250px;
-  background-color: yellow;
+  /* background-color: yellow; */
   display: inline-block;
   vertical-align: top;
   margin-left: 1%;
